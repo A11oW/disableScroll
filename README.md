@@ -2,8 +2,8 @@
 
 http://stackoverflow.com/questions/4770025/how-to-disable-scrolling-temporarily/4770179#4770179
 
-<code>
 easy disable scroll in all browsers
+```
 
 // left: 37, up: 38, right: 39, down: 40,
 // spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
@@ -40,4 +40,4 @@ function enableScroll() {
     window.ontouchmove = null;  
     document.onkeydown = null;  
 }
-</code>
+```
